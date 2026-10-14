@@ -1,0 +1,65 @@
+.menu-card {
+    width: 280px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #e6d5c8;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menu-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.menu-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 21px;
+}
+
+.menu-card p {
+    margin: 8px 0;
+}
+
+.menu-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu-category {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: #fce0c2;
+    color: #7a351f;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu-card button {
+    width: 100%;
+    padding: 11px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #8b2e2e;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-card button:hover {
+    background-color: #6f2222;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
