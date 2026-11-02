@@ -1,0 +1,7 @@
+{
+  "Name": "table-and-taste-s3-oac",
+  "Description": "Private access from CloudFront to the Table and Taste S3 website bucket",
+  "SigningProtocol": "sigv4",
+  "SigningBehavior": "always",
+  "OriginAccessControlOriginType": "s3"
+}
