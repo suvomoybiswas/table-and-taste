@@ -1,4 +1,22 @@
 node_modules/ 
 target/ 
 .idea/ 
-.env 
+.env
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+terraform.tfvars
+.terraformrc
+terraform.rc
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Local Docker image archives
+*.tar
+**/terraform-state-backup.json
+
